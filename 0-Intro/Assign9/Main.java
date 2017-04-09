@@ -25,13 +25,9 @@ public class Main
 	{
 		Grade[] grades = new Grade[3];
 		
-		Grade letter = new LetterGrade("a");
-		Grade percent = new PercentageGrade("80");
-		Grade pass = new PassFailGrade("fail");
-		
-		grades[0] = letter;
-		grades[1] = percent;
-		grades[2] = pass;
+		grades[0] = new LetterGrade("a");
+		grades[1] = new PercentageGrade("80");
+		grades[2] = new PassFailGrade("fail");
 		
 		for (int i = 0; i < grades.length; i++)
 		{
